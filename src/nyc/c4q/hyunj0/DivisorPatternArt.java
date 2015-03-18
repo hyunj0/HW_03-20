@@ -24,7 +24,7 @@ public class DivisorPatternArt {
             return "  ";
         }
     }
-    
+
     //test each column in the same row before moving on the the second row
     public static void box (int size) {
         for (int i = 1; i <= size; i++) {
