@@ -11,11 +11,10 @@ public class DivisorPatternArt {
         box(size);
     }
 
-    //typing System.out.print(string) is redundant so make a method to print strings
+    //Make a method to print strings without having to type the whole print line
     public static void print(String text) {
         System.out.print(text);
     }
-
 
     public static String pattern (int i, int j) {
         if (i % j == 0 || j % i == 0) {
@@ -25,7 +24,7 @@ public class DivisorPatternArt {
         }
     }
 
-    //test each column in the same row before moving on the the second row
+    //test each column of the same row before moving on to the second row
     public static void box (int size) {
         for (int i = 1; i <= size; i++) {
             for (int j = 1; j <= size; j++) {
